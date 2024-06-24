@@ -1,0 +1,1 @@
+rsync -vzrtopg --progress --exclude=.git --exclude=.gitignore --exclude=.idea --exclude=CMakeLists.txt --exclude=cmake* /Users/yajunli/Develop/platform_new/goocar/GoocarProxy/src dev@192.168.1.45:/home/dev/svn/goocar/GoocarProxy/ > rsync.log 2>&1
